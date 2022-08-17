@@ -10,7 +10,7 @@ Tata Neu - Live the Neu
 
     Nested Scaffolds could be helpful in cases where we want to show multiple screens layered/stacked upon each other through elevation/depth something like below (not exactly same) inside our app:
 
-    ![Layered Image Example](/neu_assignment/assets/wrapped_ui.png)
+    ![Layered Image Example](/neu_assignment/assets/layered_image.webp)
 
 2. What are the different ways we can create a custom widget ?
 
