@@ -6,7 +6,7 @@ Tata Neu - Live the Neu
 1. Can we nest the Scaffold widget? Why or Why not?
 
     Yes, we can nest the Scaffold widget because it's a widget and any widget can be nested with any other. <br>
-    But it is not recommended to use nested Scaffold because it has been designed to be a top level container for a <font color="blue">MaterialApp</font>. <font color="blue">MaterialApp</font> provides the app with Material's basic visual layout structure and if we use nested Scaffolds then each of the widget would get these basic visual layouts althrough its not needed. <br>
+    But it is not recommended to use nested Scaffold because it has been designed to be a top level container for a <font color="blue">MaterialApp</font>. <p style="color:blue">MaterialApp</p> provides the app with Material's basic visual layout structure and if we use nested Scaffolds then each of the widget would get these basic visual layouts althrough its not needed. <br>
 
     Nested Scaffolds could be helpful in cases where we want to show multiple screens layered/stacked upon each other through elevation/depth. 
 
