@@ -103,7 +103,7 @@ Tata Neu - Live the Neu
 
     a **const** keyword means that the object's entire deep state can be determined entirely at compile time and that the object will be frozen and completely immutable. A const object does not have access to anything you would need to calculate at runtime.For any given const value, a single const object will be created and re-used no matter how many times the const expression(s) are evaluated.
 
-    the second last statement will compile even after second reassignment because after first assignment list2 will become variable.
+    the second last statement will compile even after second reassignment because after first assignment list2 will become variable.<br>
     the last statement will not compile becaue const declared variable needs the assignment to be constant as well.
 
 
