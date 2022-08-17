@@ -70,6 +70,41 @@ Tata Neu - Live the Neu
             }
 
 
+2. Identify the problem in the following code block and correct it.
+
+            String longOperationMethod() {
+                int counting = 1;
+                while(counting <= 1000000000) {
+                    counting += 1;
+                }
+                return "$counting! times I print the value";
+            }
+    
+    problem was unnecessary reassigning the value of counting.
+
+3. In the below code, list1 declared with var, list2 with final and list3 with const.
+   What is the difference between these lists? Will the last two lines compile?
+
+            
+            var list1 = ["Ok", "love", "Flutter"];
+
+            final list2 = list1;
+            list2[2] = "dart"; // will not compile
+
+            const list3 = list1; // will not compile
+
+    a <font color="blue">var</font> keyword is used to declare a variable. The Dart Compiler automatically knows the type of data based on the assigned value to the variable because Dart is an <font color="blue">infer type language</font>. 
+    
+    a <font color="blue">final</font> keyword is used for a varibale that can be assigned only once. Once assigned a value,cannot be changed.
+
+    a <font color="blue">const</font> keyword means that the object's entire deep state can be determined entirely at compile time and that the object will be frozen and completely immutable. A const object does not have access to anything you would need to calculate at runtime.For any given const value, a single const object will be created and re-used no matter how many times the const expression(s) are evaluated.
+
+    the second last statement will compile even after second reassignment because after first assignment list2 will become variable.
+    the last statement will not compile becaue const declared variable needs the assignment to be constant as well.
+
+
+
+
 
 
 
