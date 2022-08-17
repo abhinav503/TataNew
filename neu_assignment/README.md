@@ -93,7 +93,7 @@ Tata Neu - Live the Neu
             var list1 = ["Ok", "love", "Flutter"];
 
             final list2 = list1;
-            list2[2] = "dart"; // will not compile
+            list2[2] = "dart"; // will compile
 
             const list3 = list1; // will not compile
 
