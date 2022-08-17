@@ -46,14 +46,14 @@ Tata Neu - Live the Neu
 1. Refactor the code below so that the children will wrap to the next line when
    the display width is small for them to fit.
 
-           >import 'package:flutter/material.dart';
-           >class LongStringWidget extends StatelessWidget {
-           >const LongStringWidget({Key? key}) : super(key: key);
+           import 'package:flutter/material.dart';
+           class LongStringWidget extends StatelessWidget {
+           const LongStringWidget({Key? key}) : super(key: key);
 
-           >@override
-           >Widget build(BuildContext context) {
-           >return Wrap(
-           >children: const [
+           @override
+           Widget build(BuildContext context) {
+           return Wrap(
+           children: const [
                     Chip(label: Text("I")),
                     Chip(label: Text("am")),
                     Chip(label: Text("looking")),
@@ -65,9 +65,11 @@ Tata Neu - Live the Neu
                     Chip(label: Text("something")),
                     Chip(label: Text("good")),
                 ],
-                );
+               );
+              }
             }
-            }
+
+
 
 
 
