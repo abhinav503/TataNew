@@ -1,16 +1,14 @@
 # neu_assignment
 
-A new Flutter project.
+Tata Neu - Live the Neu
+## Descriptive Questions
 
-## Getting Started
+1. Can we nest the Scaffold widget? Why or Why not?
 
-This project is a starting point for a Flutter application.
+    Yes, we can nest the Scaffold widget because it's a widget and any widget can be nested with any other. <br>
+    But it is not recommended to use nested Scaffold because it has been designed to be a top level container for a MaterialApp. MaterialApp provides the app with Material's basic visual layout structure and if we use nested Scaffolds then each of the widget would get these basic visual layouts althrough its not needed. <br>
 
-A few resources to get you started if this is your first Flutter project:
+    Nested Scaffolds could be helpful in cases where we want to show multiple screens layered upon each other through elevation/depth. Following UI can be made using nested scaffold : 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+        ![Tux, the Layered UI](assets/layered_image.webp)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
