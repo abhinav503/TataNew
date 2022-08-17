@@ -8,7 +8,9 @@ Tata Neu - Live the Neu
     Yes, we can nest the Scaffold widget because it's a widget and any widget can be nested with any other. <br>
     But it is not recommended to use nested Scaffold because it has been designed to be a top level container for a **MaterialApp**. **MaterialApp** provides the app with Material's basic visual layout structure and if we use nested Scaffolds then each of the widget would get these basic visual layouts althrough its not needed. <br>
 
-    Nested Scaffolds could be helpful in cases where we want to show multiple screens layered/stacked upon each other through elevation/depth. 
+    Nested Scaffolds could be helpful in cases where we want to show multiple screens layered/stacked upon each other through elevation/depth something like below (not exactly same) inside our app:
+
+    ![Layered Image Example](/neu_assignment/assets/wrapped_ui.png)
 
 2. What are the different ways we can create a custom widget ?
 
