@@ -69,7 +69,7 @@ Tata Neu - Live the Neu
               }
             }
 
-        ![Tux, the Linux mascot](/assets/wrapped_ui.png)
+    ![Tux, the Linux mascot](/assets/wrapped_ui.png)
 
 
 2. Identify the problem in the following code block and correct it.
