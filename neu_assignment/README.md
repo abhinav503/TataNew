@@ -10,5 +10,5 @@ Tata Neu - Live the Neu
 
     Nested Scaffolds could be helpful in cases where we want to show multiple screens layered upon each other through elevation/depth. Following UI can be made using nested scaffold : 
 
-        ![Tux, the Layered UI](assets/layered_image.webp)
+        ![The Layered UI!](/assets/layered_image.webp "Layered UI")
 
