@@ -97,6 +97,8 @@ Tata Neu - Live the Neu
 
             const list3 = list1; // will not compile
 
+    ![Compile Error](/neu_assignment/assets/error.png)
+
     a **var** keyword is used to declare a variable. The Dart Compiler automatically knows the type of data based on the assigned value to the variable because Dart is an **infer type language**. 
     
     a **final** keyword is used for a varibale that can be assigned only once. Once assigned a value,cannot be changed.
