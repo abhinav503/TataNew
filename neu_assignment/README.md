@@ -34,7 +34,7 @@ Tata Neu - Live the Neu
 
 4. What is BuildContext? What is its importance?
 
-    BuildContext is source to locate the widget in a **Widget Tree**.Each widget has its own BuildContext. Widget Tree doesnt create this context information, rather it's created by **Element Tree**.
+    BuildContext is source to locate the widget in a **Widget Tree**.Each widget has its own BuildContext. Widget Tree does not create this context information, rather it's created by **Element Tree**.
 
     Its importance are:
 
@@ -54,20 +54,20 @@ Tata Neu - Live the Neu
 
            @override
            Widget build(BuildContext context) {
-           return Wrap(
-           children: const [
-                    Chip(label: Text("I")),
-                    Chip(label: Text("am")),
-                    Chip(label: Text("looking")),
-                    Chip(label: Text("for")),
-                    Chip(label: Text("a")),
-                    Chip(label: Text("job")),
-                    Chip(label: Text("and")),
-                    Chip(label: Text("need")),
-                    Chip(label: Text("something")),
-                    Chip(label: Text("good")),
-                ],
-               );
+                return Wrap(
+                    children: const [
+                                Chip(label: Text("I")),
+                                Chip(label: Text("am")),
+                                Chip(label: Text("looking")),
+                                Chip(label: Text("for")),
+                                Chip(label: Text("a")),
+                                Chip(label: Text("job")),
+                                Chip(label: Text("and")),
+                                Chip(label: Text("need")),
+                                Chip(label: Text("something")),
+                                Chip(label: Text("good")),
+                            ],
+                        );
               }
             }
 
